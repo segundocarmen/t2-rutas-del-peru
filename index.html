@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Segundo Carmen Dominguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas del Perú</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header" id="inicio">
+            <div class="header__brand">
+                <span class="header__logo">&#9992;&#xFE0E;</span>
+                <div class="header__text">
+                    <h1 class="header__title">Rutas del Perú</h1>
+                    <p class="header__subtitle">Descubre los mejores destinos del país</p>
+                </div>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a class="menu__link" href="#inicio">Inicio</a></li>
+                    <li><a class="menu__link" href="#destinos">Destinos</a></li>
+                    <li><a class="menu__link" href="#multimedia">Multimedia</a></li>
+                    <li><a class="menu__link" href="#contacto">Contacto</a></li>
+                    <li><a class="menu__link" href="https://www.ytuqueplanes.com/" target="_blank" rel="noopener noreferrer">Y tu que planes!!</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <div class="content">
+                <section class="destinations" id="destinos">
+                    <h2 class="destinations__title">Destinos destacados</h2>
+                    <p class="destinations__text">Selecciona un destino para conocer más sobre sus atractivos.</p>
+
+                    <div class="cards">
+                        <article class="card">
+                            <img class="card__image" src="img/machu_picchu.avif" alt="Ciudadela inca de Machu Picchu rodeada de montañas">
+                            <div class="card__body">
+                                <span class="card__tag">Cusco • Cultura</span>
+                                <h3 class="card__title">Machu Picchu</h3>
+                                <p class="card__text">Descubre la ciudadela inca rodeada de montañas y paisajes únicos.</p>
+                                <button class="button" type="button">Conocer</button>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <img class="card__image" src="img/huacachina.jpeg" alt="Oasis de Huacachina rodeado de dunas">
+                            <div class="card__body">
+                                <span class="card__tag">Ica • Aventura</span>
+                                <h3 class="card__title">Huacachina</h3>
+                                <p class="card__text">Vive la experiencia de un oasis rodeado por las dunas del desierto.</p>
+                                <button class="button" type="button">Conocer</button>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <img class="card__image" src="img/lago_titicaca.jpeg" alt="Lago Titicaca con un bote de totora">
+                            <div class="card__body">
+                                <span class="card__tag">Puno • Naturaleza</span>
+                                <h3 class="card__title">Lago Titicaca</h3>
+                                <p class="card__text">Conoce sus islas y las tradiciones que forman parte de la cultura puneña.</p>
+                                <button class="button" type="button">Conocer</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <aside class="aside" id="contacto">
+                    <h2 class="aside__title">Planifica tu viaje</h2>
+                    <ul class="aside__list">
+                        <li class="aside__item"><span class="aside__icon">&#128205;</span>Lima, Perú</li>
+                        <li class="aside__item"><span class="aside__icon">&#9742;&#xFE0E;</span>(01) 616-7300</li>
+                        <li class="aside__item"><span class="aside__icon">&#9993;&#xFE0E;</span>info@rutasdelperu.pe</li>
+                        <li class="aside__item"><span class="aside__icon">&#128344;</span>Lun-Sáb: 9:00–18:00</li>
+                    </ul>
+                    <button class="button button--block" type="button">Ver destinos</button>
+                    <button class="button button--block" type="button">Ver experiencias</button>
+                </aside>
+            </div>
+
+            <section class="multimedia" id="multimedia">
+                <h2 class="multimedia__title">Multimedia</h2>
+
+                <div class="multimedia__container">
+                    <article class="media">
+                        <h3 class="media__title">Video promocional</h3>
+                        <video class="media__video" controls preload="metadata" poster="img/poster.png">
+                            <source src="img/video.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <p class="media__text">Disfruta de lo mejor del Perú.</p>
+                    </article>
+
+                    <article class="media">
+                        <h3 class="media__title">Sonidos del Perú</h3>
+                        <audio class="media__audio" controls preload="metadata">
+                            <source src="img/audio.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+
+                        <h3 class="media__title media__title--second">Video de YouTube</h3>
+                        <iframe class="media__youtube"
+                                src="https://www.youtube.com/embed/EnKQK-wOgMw"
+                                title="TOP 10 Perú - Qué ver y hacer en Perú"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">© 2026 Rutas del Perú – Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
